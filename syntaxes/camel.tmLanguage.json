@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "camel",
+	"patterns": [
+		{"include": "#keywords"},
+    {"include": "#numlits"}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.alphanumeric.camel",
+				"match": "\\b(let|in)\\b"
+			},{
+        "name": "keyword.symbolic.camel",
+        "match": "\\s*(\\\\|\\.|=|\\?|:)\\s*"
+      },{
+        "name": "keyword.operator",
+        "match": "(\\+|-|\\*|/)"
+      }]
+		},
+    "numlits": {
+      "name": "constant.numeric.lam",
+      "match": "\\b[0-9]\\b"
+    }
+	},
+	"scopeName": "source.lam"
+}
