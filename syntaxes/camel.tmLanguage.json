@@ -23,5 +23,5 @@
       "match": "\\b[0-9]\\b"
     }
 	},
-	"scopeName": "source.lam"
+	"scopeName": "source.camel"
 }
