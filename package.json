@@ -3,6 +3,7 @@
 	"displayName": "camel",
 	"description": "A syntax highlighter for Camel",
 	"version": "0.0.1",
+  "publisher": "fplab",
 	"engines": {
 		"vscode": "^1.68.0"
 	},
